@@ -1,0 +1,19 @@
+To add a batch file that provides auto-authentication to the VPN on the lock screen of a Windows PC, you can utilize the Group Policy Editor. Here's how you can do it:
+
+Press the Windows key + R to open the Run dialog box. Type "gpedit.msc" and hit Enter to open the Group Policy Editor.
+
+In the Group Policy Editor, navigate to "Computer Configuration" -> "Windows Settings" -> "Scripts (Startup/Shutdown)".
+
+Double-click on "Startup" in the right pane to open the "Startup Properties" window.
+
+Click on the "Add" button to add a new startup script.
+
+In the "Add a Script" window, click on the "Browse" button and locate your batch file (.bat).
+
+Select your batch file and click "Open".
+
+Click "OK" to close the "Add a Script" window.
+
+Back in the "Startup Properties" window, you should see your batch file listed. Click "OK" to save the changes.
+
+Close the Group Policy Editor.
