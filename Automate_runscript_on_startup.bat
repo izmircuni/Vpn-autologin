@@ -1,3 +1,4 @@
+REM use this batch script to automate the creation of the scheduled task for running the autovpnconnect batch script at startup.
 @echo off
 set TaskName="My Startup Task"
 set ScriptPath="C:\Path\to\your\script.bat"
